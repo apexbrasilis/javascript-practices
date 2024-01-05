@@ -4,7 +4,7 @@ body {
 }
 h1 {
   text-align: center;
-  font-size: 7em;
+  font-size: 7rem;
   font-weight: bold;
 }
 body > p {
@@ -17,20 +17,44 @@ body > p {
   margin: 40px 50px;
   background-color: black;
   border-radius: 20px;
-  box-shadow: 3px 3px 14px rgba(0, 0, 0, 0.58);
+  box-shadow: 3px 3px 18px rgba(0, 0, 0, 0.168);
   height: 30v;
 }
 article > p {
   margin: 30px;
-  text-align: justify;
+  text-align: center;
   padding: 20px;
-  font-size: 1.5em;
+  font-size: 1.2rem;
   color: white;
 }
 .logo {
   display: block;
+  position: relative;
+  text-align: center;
   margin: auto;
-  height: 40vh;
-  width: 40vh;
-  box-shadow: 2px 2px 13px rgba(255, 166, 0, 0.522);
+  height: auto;
+  width: 100vw;
+  
+}
+.logo img{
+  height: 30%;
+  width: 40%;
+  box-shadow: 2px 2px 13px rgba(255, 166, 0, 0.827);
+}
+footer{
+  background-color: black;
+}
+
+footer > p {
+  position: absolute;
+  bottom: 0;
+  font-size: 0.9em;
+  background-color: black ;
+  text-align: center;
+  color: yellow;
+  padding: 4px;
+  margin: 0px;
+  width: 100vw;
+  bottom: 0px;
+  
 }
