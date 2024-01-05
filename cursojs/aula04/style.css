@@ -1,0 +1,36 @@
+body {
+  background-color: #f7e017;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  text-align: center;
+  font-size: 7em;
+  font-weight: bold;
+}
+body > p {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+}
+.box {
+  display: block;
+  margin: 40px 50px;
+  background-color: black;
+  border-radius: 20px;
+  box-shadow: 3px 3px 14px rgba(0, 0, 0, 0.58);
+  height: 30v;
+}
+article > p {
+  margin: 30px;
+  text-align: justify;
+  padding: 20px;
+  font-size: 1.5em;
+  color: white;
+}
+.logo {
+  display: block;
+  margin: auto;
+  height: 40vh;
+  width: 40vh;
+  box-shadow: 2px 2px 13px rgba(255, 166, 0, 0.522);
+}
